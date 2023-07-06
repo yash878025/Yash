@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+</head>
+<body>
+  <div class="container" style="text-align: center;">
+    <h2>Login Page</h2>
+    <form onsubmit="return validateForm()">
+      <label for="username">Username:</label>
+      <input type="text" id="username" required><br><br>   
+      <label for="password">Password:</label>
+      <input type="password" id="password" required><br><br>
+      <input type="submit">
+    </form>
+  </div>
+  <script>
+    function validateForm() {
+      var passwordInput = document.getElementById("password").value;
+      var passwordError = document.getElementById("password-error");
+      var passwordRegex = /^(?=.*[@#$!%*?&])[A-Za-z\d@#$!%*?&]{8,}$/;
+
+      if (!passwordRegex.test(passwordInput)) {
+        alert("Password must contain at least 8 characters, including at least one uppercase letter, one lowercase letter, one digit, and one special character.");
+        return false;
+      }
+      passwordError.textContent = "";
+      return true;
+    }
+  </script>
+</body>
+</html>
