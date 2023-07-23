@@ -1,0 +1,98 @@
+#customize-controls .control-section-spark-multipurpose .accordion-section-title:hover,
+#customize-controls .control-section-spark-multipurpose .accordion-section-title:focus {
+    background-color: #fff;
+}
+
+.spark-multipurpose-drag-spinner {
+    display: none;
+    float: right;
+}
+
+#sub-accordion-panel-spark-multipurpose_homepage_settings .customize-info .customize-panel-description {
+    display: block !important;
+}
+
+.rtl .control-section-spark-multipurpose .accordion-section-title .button {
+    margin-left: 0;
+    margin-right: 8px;
+}
+
+#accordion-section-spark-multipurpose .accordion-section-title .button {
+    height: 40px;
+    line-height: 38px;
+    text-transform: uppercase;
+    padding: 0 25px 0;
+    width: 90%;
+    text-align: center;
+
+}
+
+#accordion-section-spark-multipurpose .accordion-section-title:before {
+    content: '';
+}
+
+#accordion-section-spark-multipurposedoc .accordion-section-title .button {
+    float: right;
+}
+
+.customize-control-spark-multipurpose-upgrade-text {
+    background: #FFFFFF;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.customize-control-spark-multipurpose-upgrade-text ul {
+    margin: 8px 0 0 16px;
+    font-style: italic;
+}
+
+.customize-control-spark-multipurpose-upgrade-text ul li:before {
+    content: '- ';
+    margin-left: -8px;
+}
+
+.control-section-spark-multipurpose-upgrade-section {
+    background: #FFF;
+    padding: 20px;
+    margin: 15px;
+}
+
+.control-section-spark-multipurpose-upgrade-section .button {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.control-section-spark-multipurpose-upgrade-section label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.control-section-spark-multipurpose-upgrade-section {
+    background: #FFF;
+    padding: 20px;
+    margin: 15px;
+}
+
+.control-section-spark-multipurpose-upgrade-section .button {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.control-section-spark-multipurpose-upgrade-section label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.customizer-hidden {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    left: -1000px;
+    display: none;
+}
